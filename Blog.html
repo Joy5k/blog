@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              },
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    
+        <h2 class="text-4xl	 font-bold text-slate-700 text-center m-4">The questions that are asked to us the most</h2>
+        <section class="w-6/12 mx-auto m-8">
+            <!-- difference between var let const -->
+    <p class="mb-4">
+        <button class="w-full inline-block px-6 py-2.5 bg-slate-500 text-slate-300 font-medium text-xl leading-tight uppercase rounded shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+         What are the Difference between var,let,const?
+        </button>
+      </p>
+      <div>
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="block p-6 rounded-lg shadow-lg bg-white " style="width: 600px;"><div class="flex flex-col">
+            <div class="overflow-x-auto sm:-mx-6 lg:-mx-40">
+              <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                <div class="overflow-hidden">
+                    <h3 class="text-3xl font-semibold text-center mb-4">Difference Between var,let,const</h3>
+                  <table class="min-w-full">
+                    
+                    <thead class="bg-white border-b">
+                      <tr>
+                        <th scope="col" class="text-2xl  font-medium text-gray-900 px-6 py-4 text-left">
+                          No.
+                        </th>
+                        <th scope="col" class="text-2xl  font-medium text-gray-900 px-6 py-4 text-left">
+                       var
+                        </th>
+                        <th scope="col" class="text-2xl font-medium text-gray-900 px-6 py-4 text-left">
+                          let
+                        </th>
+                        <th scope="col" class="text-2xl font-medium text-gray-900 px-6 py-4 text-left">
+                          const
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="bg-gray-100 border-b">
+                        <td class="px-6 py-4 whitespace-nowrap  font-semibold text-gray-900">Scope</td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-bold">
+                            Variables declared with <br> var are in the function <br> scope.
+                        </td>
+                        <td class=" text-gray-900   px-6 py-4 whitespace-nowrap font-bold">
+                            Variables declared as <br> let are in the block scope.
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-bold">
+                            Variables declared as <br> const are in the block scope.
+
+                        </td>
+                      </tr>
+                      <tr class="bg-white border-b">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Hoisting</td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Allowed
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Not allowed
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Not allowed
+                        </td>
+                      </tr>
+                      <tr class="bg-white border-b">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Reassign the value</td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Allowed
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Allowed
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Not allowed
+                        </td>
+                      </tr>
+                      <tr class="bg-white border-b">
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Redeclaration</td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                            Allowed
+                        </td>
+                        <td class="text-sm text-gray-900  px-6 py-4 whitespace-nowrap">
+                            allowed
+                        </td>
+                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
+                          allowed
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div> </div>
+        </div>
+      </div>
+      <!-- Difference arrow function and regular Functions -->
+
+      <p class="md:space-x-1 space-y-1 md:space-y-0 mb-4">
+     
+        <button class="w-full inline-block px-6 py-2.5 bg-slate-500 text-slate-300 font-medium text-xl leading-tight uppercase rounded shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        difference between arrow function and regular function?
+        </button>
+      </p>
+
+      <div class="collapse" id="collapseExample">
+        <div class="block p-6 rounded-lg shadow-lg bg-white">Regular functions created using function declarations or expressions are constructible and callable. Since regular functions are constructible, they can be called using the new keyword. However, the arrow functions are only callable and not constructible, i.e arrow functions can never be used as constructor functions.And,there are two major benefits of using Arrow functions. One is that it's a shorter syntax and thus requires less code. The main benefit is that it removes the several pain points associated with the this operator.
+
+        </div>
+      </div>
+
+      <!-- why do we use template string -->
+      <p class="md:space-x-1 space-y-1 md:space-y-0 mb-4">
+     
+        <button class="w-full inline-block px-6 py-2.5 bg-slate-500 text-slate-300 font-medium text-xl leading-tight uppercase rounded shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExamples" aria-expanded="false" aria-controls="collapseExample">
+            Why do we use template string in JavaScript?
+        </button>
+      </p>
+
+      <div class="collapse" id="collapseExamples">
+        <div class="block p-6 rounded-lg shadow-lg bg-white">Template strings are a powerful feature of modern JavaScript released in ES6. It lets us insert/interpolate variables and expressions into strings without needing to concatenate like in older versions of JavaScript. It allows us to create strings that are complex and contain dynamic elements.
+        </div>
+      </div>
+      <!-- difference among the map,filter,forEach,find -->
+      <p class="md:space-x-1 space-y-1 md:space-y-0 mb-4">
+     
+        <button class="w-full inline-block px-6 py-2.5 bg-slate-500 text-slate-300 font-medium text-xl leading-tight uppercase rounded shadow-md hover:bg-slate-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExampl" aria-expanded="false" aria-controls="collapseExample">
+            Why do we use template string in JavaScript?
+        </button>
+      </p>
+
+      <div class="collapse" id="collapseExampl">
+        <div class="block p-6 rounded-lg shadow-lg bg-white">
+            
+            <span class="font-bold"> Difference map() and forEach():</span>
+            The first difference between map() and forEach() is the returning value. The forEach() method returns undefined and map() returns a new array with the transformed elements. Even if they do the same job, the returning value remains different.
+        </div>
+
+        <div class="block p-6 rounded-lg shadow-lg bg-white">
+           <span class="font-bold">  Difference find() and filter():</span> The find() method is used to find all the descendant elements of the selected element. It finds the element in the DOM tree by traversing through the root to leaf. The filter() method is used to filters all the elements and returns the element that matches and the element that do not match are removed.
+        </div>
+      </div>
+    </section>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
