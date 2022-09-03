@@ -9,17 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-              },
-            }
-          }
-        }
-      </script>
+   
 </head>
 <body>
     
@@ -33,86 +23,15 @@
       </p>
       <div>
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <div class="block p-6 rounded-lg shadow-lg bg-white " style="width: 600px;"><div class="flex flex-col">
-            <div class="overflow-x-auto sm:-mx-6 lg:-mx-40">
-              <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                <div class="overflow-hidden">
-                    <h3 class="text-3xl font-semibold text-center mb-4">Difference Between var,let,const</h3>
-                  <table class="min-w-full">
-                    
-                    <thead class="bg-white border-b">
-                      <tr>
-                        <th scope="col" class="text-2xl  font-medium text-gray-900 px-6 py-4 text-left">
-                          No.
-                        </th>
-                        <th scope="col" class="text-2xl  font-medium text-gray-900 px-6 py-4 text-left">
-                       var
-                        </th>
-                        <th scope="col" class="text-2xl font-medium text-gray-900 px-6 py-4 text-left">
-                          let
-                        </th>
-                        <th scope="col" class="text-2xl font-medium text-gray-900 px-6 py-4 text-left">
-                          const
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="bg-gray-100 border-b">
-                        <td class="px-6 py-4 whitespace-nowrap  font-semibold text-gray-900">Scope</td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-bold">
-                            Variables declared with <br> var are in the function <br> scope.
-                        </td>
-                        <td class=" text-gray-900   px-6 py-4 whitespace-nowrap font-bold">
-                            Variables declared as <br> let are in the block scope.
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-bold">
-                            Variables declared as <br> const are in the block scope.
-
-                        </td>
-                      </tr>
-                      <tr class="bg-white border-b">
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Hoisting</td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Allowed
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Not allowed
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Not allowed
-                        </td>
-                      </tr>
-                      <tr class="bg-white border-b">
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Reassign the value</td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Allowed
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Allowed
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Not allowed
-                        </td>
-                      </tr>
-                      <tr class="bg-white border-b">
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Redeclaration</td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                            Allowed
-                        </td>
-                        <td class="text-sm text-gray-900  px-6 py-4 whitespace-nowrap">
-                            allowed
-                        </td>
-                        <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap">
-                          allowed
-                        </td>
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div> </div>
+          <div class="block p-6 rounded-lg shadow-lg bg-white " style="width: 600px;">
+            The differences between var, let, and const variable declaration in JavaScript include:
+            Variables declared with var and const are scoped to the immediate function body.
+            Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared.
+            Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block.
+  
+          </div> 
+        
+        </div>
         </div>
       </div>
       <!-- Difference arrow function and regular Functions -->
